@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MoreCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="55.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BoZ-ej-cXR">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="3Bq-kj-plp"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mg9-RD-8vB">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="BoZ-ej-cXR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="7kX-9c-Bhg"/>
+                    <constraint firstItem="mg9-RD-8vB" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Db4-O8-M80"/>
+                    <constraint firstItem="BoZ-ej-cXR" firstAttribute="centerY" secondItem="mg9-RD-8vB" secondAttribute="centerY" id="OJe-xh-UMo"/>
+                    <constraint firstItem="mg9-RD-8vB" firstAttribute="height" secondItem="BoZ-ej-cXR" secondAttribute="height" constant="-29" id="alK-e5-1ZB"/>
+                    <constraint firstItem="mg9-RD-8vB" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="cZA-9X-ANU"/>
+                    <constraint firstItem="mg9-RD-8vB" firstAttribute="leading" secondItem="BoZ-ej-cXR" secondAttribute="trailing" constant="27" id="uLD-Jl-XAk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imvIcon" destination="BoZ-ej-cXR" id="7v0-iJ-QP5"/>
+                <outlet property="lblIconName" destination="mg9-RD-8vB" id="W7V-x9-p0C"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

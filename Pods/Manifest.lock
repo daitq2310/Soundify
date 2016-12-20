@@ -1,0 +1,47 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - MarqueeLabel (2.8.0):
+    - MarqueeLabel/ObjC (= 2.8.0)
+  - MarqueeLabel/ObjC (2.8.0)
+  - Reachability (3.2)
+  - Realm (2.0.0):
+    - Realm/Headers (= 2.0.0)
+  - Realm/Headers (2.0.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVPullToRefresh (0.4.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - MarqueeLabel
+  - Reachability
+  - Realm
+  - SDWebImage
+  - SVPullToRefresh
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  MarqueeLabel: 73b52d7558241ece6391e9c566edb56b269883e2
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  Realm: 6dda421ae4b3e9a09742fc2cf4b876d459cbedcd
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+
+PODFILE CHECKSUM: ea7834f4526cea3664b3c979906f58b1d8a7fdd1
+
+COCOAPODS: 1.1.0.rc.2
